@@ -65,6 +65,11 @@ In this example we will use [Cherry Studio](https://github.com/CherryHQ/cherry-s
 ### Configure Qwen3-235b from Scaleway on Cherry Studio
 
 Open Cherry Studio and configure the Scaleway provider: (cf: README on [another project for full chery studio steps](https://github.com/Quentinchampenois/shell-history-mcp-server?tab=readme-ov-file#configure-client-using-cherry-studio-and-scaleway-ai-provider))
+💡 Very important, setup the environment variables in your cherry studio MCP configuration : 
+* `GRIST_ENDPOINT=http://localhost:8484`
+* `GRIST_API_KEY=<YOUR_API_KEY>`, API_KEY from GRIST WebUI
+
+
 
 __🚀 Once Cherry studio let's give a try with a basic prompt__
 
