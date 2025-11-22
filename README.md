@@ -8,15 +8,23 @@ Functions:
 * ✅ `list_orgs` : List all organizations 
 * ✅ `create_workspace`: Creates a new workspace in organization 
 * ✅ `create_new_docs`: Creates one or more documents in workspace
-* ☑️ `query_sql`: Query SQL
-* ☑️ `add_record`: Add a record in a document
-* ☑️ `get_record`: Get a record in a document
-* ☑️ `add_columns_to_table`: Add columns to a table
+* ✅ `create_new_tables`: Add new tables with columns to a document
+* ☑️ `query_sql`: Query SQL (API not yet available)
+* ☑️ `add_record`: Add a record in a document (API not yet available)
+* ☑️ `get_record`: Get a record in a document (API not yet available)
 
 ## Examples
 
+System prompt example available at [docs/SYSTEM_PROMPT.md](./docs/SYSTEM_PROMPT.md)
+
+
 Prompt:
-> Creates a new workspace named "Happy customer" in my organization
+> Create a personal finance tracker in Grist with the following structure:
+> 1. Tables needed:  
+    - Transactions: columns for Date, Description, Category, Amount, Payment Method, and Notes  
+    - Categories: columns for Category Name, Type (Income/Expense), Budget Limit  
+    - Monthly Summary: columns for Month, Total Income, Total Expenses, Net Balance
+
 
 ## Getting started
 
