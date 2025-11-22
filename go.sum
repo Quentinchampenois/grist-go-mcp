@@ -8,10 +8,10 @@ github.com/modelcontextprotocol/go-sdk v1.0.0 h1:Z4MSjLi38bTgLrd/LjSmofqRqyBiVKR
 github.com/modelcontextprotocol/go-sdk v1.0.0/go.mod h1:nYtYQroQ2KQiM0/SbyEPUWQ6xs4B95gJjEalc9AQyOs=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
-github.com/quentinchampenois/go-grist-api v0.0.0-20251108131047-88d715b435fe h1:++g8IqLd87Z6W3Kp/VU6KtxpSmAWFxL8xhPLwo8LqIM=
-github.com/quentinchampenois/go-grist-api v0.0.0-20251108131047-88d715b435fe/go.mod h1:5epBW/GjvrBefcdPLLQ3ejGbLN3U7yoRuF23OClDEXc=
-github.com/quentinchampenois/go-grist-api v0.0.0-20251122200413-03f68f0a0d86 h1:S4aTYkZ1Rf1KjQtVwlApM9Uger255djiOM1W+RNrCu0=
-github.com/quentinchampenois/go-grist-api v0.0.0-20251122200413-03f68f0a0d86/go.mod h1:5epBW/GjvrBefcdPLLQ3ejGbLN3U7yoRuF23OClDEXc=
+github.com/quentinchampenois/go-grist-api v0.0.0-20251122214433-1272509fd275 h1:zV71jFrO3odtY7aSYcohnRAQMXadSIJvHDWf5cvqAO0=
+github.com/quentinchampenois/go-grist-api v0.0.0-20251122214433-1272509fd275/go.mod h1:5epBW/GjvrBefcdPLLQ3ejGbLN3U7yoRuF23OClDEXc=
+github.com/quentinchampenois/go-grist-api v0.0.0-20251122222715-6cdac57f7ad3 h1:vCe+GHHZlDQqJEhahH2qTgCWSdyP/QdtVtxEqIkXLV4=
+github.com/quentinchampenois/go-grist-api v0.0.0-20251122222715-6cdac57f7ad3/go.mod h1:5epBW/GjvrBefcdPLLQ3ejGbLN3U7yoRuF23OClDEXc=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 github.com/yosida95/uritemplate/v3 v3.0.2 h1:Ed3Oyj9yrmi9087+NczuL5BwkIc4wvTb5zIM+UJPGz4=

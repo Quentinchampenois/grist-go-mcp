@@ -10,8 +10,8 @@ import (
 )
 
 type InputCreateNewTables struct {
-	Tables     grist.Tables `json:"tables" jsonschema:"tables to create in document"`
-	DocumentID string       `json:"documentID" jsonschema:"ID of the document where the tables will be created"`
+	Tables     grist.TablesWithColumns `json:"tables" jsonschema:"tables to create in document"`
+	DocumentID string                  `json:"documentID" jsonschema:"ID of the document where the tables will be created"`
 }
 
 type OutputCreateNewTables struct {

@@ -32,7 +32,16 @@ func ListOrgs(ctx context.Context, req *mcp.CallToolRequest, input InputListOrgs
 		return nil, OutputListOrgs{}, fmt.Errorf("failed to list orgs: %w", err)
 	}
 
+	// Prefer to return only the ID and Name of the orgs to limit tokens usage and clear out sensitive data
+	var lightOrgs []grist.Org
+	for _, org := range orgs {
+		lightOrgs = append(lightOrgs, grist.Org{
+			ID:   org.ID,
+			Name: org.Name,
+		})
+	}
+
 	return nil, OutputListOrgs{
-		Orgs: orgs,
+		Orgs: lightOrgs,
 	}, nil
 }

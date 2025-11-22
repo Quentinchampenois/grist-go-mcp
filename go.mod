@@ -4,7 +4,7 @@ go 1.25.2
 
 require (
 	github.com/modelcontextprotocol/go-sdk v1.0.0
-	github.com/quentinchampenois/go-grist-api v0.0.0-20251122200413-03f68f0a0d86
+	github.com/quentinchampenois/go-grist-api v0.0.0-20251122222715-6cdac57f7ad3
 )
 
 require (

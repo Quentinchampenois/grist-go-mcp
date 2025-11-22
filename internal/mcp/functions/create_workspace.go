@@ -15,8 +15,7 @@ type InputCreateWorkspace struct {
 }
 
 type OutputCreateWorkspace struct {
-	WorkspaceID  int64  `json:"workspaceID" jsonschema:"ID of the workspace created"`
-	WorkspaceURL string `json:"workspaceURL" jsonschema:"URL of the workspace created"`
+	WorkspaceID int64 `json:"workspaceID" jsonschema:"ID of the workspace created"`
 }
 
 func CreateWorkspace(ctx context.Context, req *mcp.CallToolRequest, input InputCreateWorkspace) (
@@ -37,7 +36,6 @@ func CreateWorkspace(ctx context.Context, req *mcp.CallToolRequest, input InputC
 	}
 
 	return nil, OutputCreateWorkspace{
-		WorkspaceID:  *workspaceID,
-		WorkspaceURL: fmt.Sprintf("%s/o/docs/ws/%d", endpoint, workspaceID),
+		WorkspaceID: *workspaceID,
 	}, nil
 }
